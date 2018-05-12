@@ -79,18 +79,18 @@ for step in xrange(201):
 
 ```
 
-###tensorflow的helloworld
+### tensorflow的helloworld
 就像学习任何一门编程语言我们倾向于先写出一个hello world一样
 在tensorflow中的hello world就是识别手写数字mnist。具体的操作和代码就不提了，网上很多，在这里给自己记个笔记，这篇博客写的很好，个人感觉比tensorflow的中文教程更容易理解一点
 [mnist教程](http://www.jeyzhang.com/tensorflow-learning-notes.html)
 
 
-####下面简单说一些自己的理解
-#####数据表示
+#### 下面简单说一些自己的理解
+##### 数据表示
 将手写图片表示成二维数组的形式，其中白色的位置都统一0，根据灰度的深浅来表示他趋近于1的概率
 ![data_show](../picture/tensorflow1.png)
 
-#####模型的训练
+##### 模型的训练
 模型的训练在于概率分布和真实分布的一个符合程度，可以选择一个代价函数（或损失函数）来指示训练模型的好坏。
 
 
